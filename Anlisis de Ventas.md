@@ -46,12 +46,12 @@ ax.set_ylabel('Cantidad de inscritos', fontsize=15)
 ax.set_title('Cantidad acumulada a través del tiempo')
 ```
 
--Se traza una línea horizontal roja punteada en el valor 1000 en el eje Y
+- Se traza una línea horizontal roja punteada en el valor 1000 en el eje Y
 ```
 ax.axhline(y=1000, color='r', linestyle='--')
 ```
 
--Se muestra el gráfico
+- Se muestra el gráfico
 
 ```
 plt.show()
